@@ -1,0 +1,10 @@
+apiVersion: fleet.cattle.io/v1alpha1
+kind: ClusterGroup
+metadata:
+  name: app-lab
+  namespace: fleet-default
+spec:
+  selector:
+    matchExpressions: []
+    matchLabels:
+      sisalcloud.it/country: it
